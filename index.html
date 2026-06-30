@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Planificación Microcurricular ERCA – Unidad 1</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Times New Roman', serif; font-size: 11pt; color: #1a1a1a; background: #f0f0f0; }
+  .page { background: #fff; width: 980px; margin: 30px auto; padding: 40px 50px; box-shadow: 0 2px 12px rgba(0,0,0,0.15); }
+
+  .header-table { width: 100%; border-collapse: collapse; margin-bottom: 18px; }
+  .header-table td { border: 1.5px solid #1a1a1a; padding: 6px 10px; vertical-align: middle; }
+  .header-logo { width: 80px; text-align: center; font-size: 26px; }
+  .header-center { text-align: center; font-weight: bold; font-size: 12pt; line-height: 1.6; }
+  .header-right { text-align: center; font-size: 10pt; font-weight: bold; width: 140px; }
+
+  .titulo-principal { text-align: center; font-size: 14pt; font-weight: bold; text-transform: uppercase;
+    background: #5b2c83; color: #fff; padding: 10px; margin-bottom: 18px; letter-spacing: 1px; }
+
+  .datos-table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 10.5pt; }
+  .datos-table td { border: 1.2px solid #555; padding: 5px 10px; }
+  .datos-table .label { background: #e6dcf0; font-weight: bold; width: 20%; }
+
+  .unidad-header { background: #5b2c83; color: #fff; font-size: 12pt; font-weight: bold;
+    text-align: center; padding: 8px; margin: 18px 0 14px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  .obj-table { width: 100%; border-collapse: collapse; font-size: 10.5pt; margin-bottom: 18px; }
+  .obj-table th { background: #5b2c83; color: #fff; padding: 7px; text-align: left; }
+  .obj-table td { border: 1px solid #aaa; padding: 8px 10px; }
+
+  /* CICLO ERCA */
+  .erca-fase { margin-bottom: 22px; border: 1.5px solid #5b2c83; border-radius: 4px; overflow: hidden; }
+  .erca-fase-header { display: flex; align-items: center; gap: 10px; padding: 10px 14px; color: #fff; font-weight: bold; font-size: 12pt; }
+  .erca-fase-header .icono { font-size: 18px; }
+  .fase-E { background: #c0392b; }
+  .fase-R { background: #d68910; }
+  .fase-C { background: #1f618d; }
+  .fase-A { background: #1e8449; }
+
+  .erca-body { padding: 12px 16px; }
+  .erca-meta { font-size: 9.5pt; color: #555; font-style: italic; margin-bottom: 8px; }
+
+  table.erca-table { width: 100%; border-collapse: collapse; font-size: 10pt; margin-top: 6px; }
+  table.erca-table th { background: #ece5f3; color: #3a1c52; padding: 6px 8px; text-align: left; border: 1px solid #c9b8db; width: 22%; }
+  table.erca-table td { border: 1px solid #c9b8db; padding: 6px 10px; vertical-align: top; }
+
+  ul.content-list { padding-left: 18px; margin: 4px 0; }
+  ul.content-list li { margin-bottom: 3px; line-height: 1.5; }
+
+  .eval-table { width: 100%; border-collapse: collapse; font-size: 10pt; margin-bottom: 14px; }
+  .eval-table th { background: #1e8449; color: #fff; padding: 7px; border: 1px solid #aaa; text-align: center; }
+  .eval-table td { border: 1px solid #aaa; padding: 6px 8px; vertical-align: top; }
+  .eval-table tr:nth-child(even) td { background: #eafaf1; }
+
+  .biblio { font-size: 10pt; line-height: 1.8; margin: 8px 0; padding-left: 28px; text-indent: -28px; }
+
+  .firmas { display: flex; justify-content: space-around; margin-top: 40px; text-align: center; }
+  .firma-box { width: 200px; border-top: 1.5px solid #1a1a1a; padding-top: 6px; font-size: 10pt; }
+
+  .slogan { text-align: center; font-style: italic; font-size: 10pt; color: #5b2c83;
+    font-weight: bold; margin-top: 25px; border-top: 2px solid #5b2c83; padding-top: 8px; }
+
+  .nota-erca { background: #f5f0fa; border-left: 4px solid #5b2c83; padding: 10px 14px; font-size: 9.5pt; margin-bottom: 18px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ENCABEZADO INSTITUCIONAL -->
+  <table class="header-table">
+    <tr>
+      <td class="header-logo" rowspan="2">🏫</td>
+      <td class="header-center">
+        MINISTERIO DE EDUCACIÓN DEL ECUADOR<br/>
+        PLANIFICACIÓN MICROCURRICULAR – CICLO DE APRENDIZAJE ERCA<br/>
+        ÁREA: MATEMÁTICA
+      </td>
+      <td class="header-right">
+        AÑO LECTIVO<br/>2025 – 2026
+      </td>
+    </tr>
+  </table>
+
+  <div class="titulo-principal">Unidad 1: Introducción a las Ecuaciones y su Aplicación en la Vida Cotidiana</div>
+
+  <!-- DATOS INFORMATIVOS -->
+  <table class="datos-table">
+    <tr>
+      <td class="label">Área / Asignatura:</td>
+      <td>Matemática</td>
+      <td class="label">Año de E.G.B.:</td>
+      <td>8.° de Educación General Básica</td>
+    </tr>
+    <tr>
+      <td class="label">Docente / Practicante:</td>
+      <td>_________________________________</td>
+      <td class="label">Período:</td>
+      <td>11 de mayo al 12 de junio de 2026 (5 semanas)</td>
+    </tr>
+    <tr>
+      <td class="label">Modelo pedagógico:</td>
+      <td colspan="3">Ciclo de Aprendizaje ERCA (Experiencia – Reflexión – Conceptualización – Aplicación), basado en el aprendizaje experiencial de David Kolb</td>
+    </tr>
+  </table>
+
+  <table class="obj-table">
+    <tr><th>Objetivo de la Unidad</th></tr>
+    <tr><td>Desarrollar el pensamiento algebraico de los estudiantes a través de la comprensión del concepto de igualdad, el uso de variables y expresiones algebraicas, y la resolución de ecuaciones de primer grado con una incógnita, aplicando estos conocimientos en situaciones de la vida cotidiana mediante el ciclo experiencial ERCA.</td></tr>
+  </table>
+
+  <div class="nota-erca">
+    <strong>Sobre el modelo ERCA:</strong> Cada semana de la unidad se desarrolla siguiendo las cuatro fases secuenciales del ciclo. En la <strong>Experiencia</strong> el estudiante vive o recuerda una situación concreta; en la <strong>Reflexión</strong> analiza esa vivencia mediante preguntas guía; en la <strong>Conceptualización</strong> construye el conocimiento teórico-formal con la mediación docente; y en la <strong>Aplicación</strong> transfiere lo aprendido a nuevas situaciones, consolidando el aprendizaje significativo.
+  </div>
+
+  <!-- ============== SEMANA 1 ============== -->
+  <div class="unidad-header">Semana 1 (11–15 de mayo de 2026) · Tema: Introducción a las Ecuaciones</div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-E"><span class="icono">①</span> EXPERIENCIA</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: lluvia de ideas y vivencia concreta</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Se presenta a los estudiantes una balanza de dos platillos (real o dibujada en la pizarra). Se les pide observar qué ocurre cuando se coloca el mismo peso en ambos lados y qué sucede si se quita o agrega peso solo de un lado. Se plantea la pregunta generadora: "¿Qué creen que representa el equilibrio de la balanza?"</td></tr>
+        <tr><th>Recursos</th><td>Balanza didáctica o imagen proyectada, objetos de igual peso (fichas, tapas).</td></tr>
+        <tr><th>Rol del estudiante</th><td>Observa, manipula el material y comparte sus primeras impresiones de forma espontánea.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-R"><span class="icono">②</span> REFLEXIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 8 minutos · Técnica: preguntas dirigidas y diálogo grupal</div>
+      <table class="erca-table">
+        <tr><th>Preguntas guía</th><td>
+          <ul class="content-list">
+            <li>¿Qué pasó con la balanza cuando ambos lados tenían el mismo peso?</li>
+            <li>¿Qué sucedió cuando quitamos peso de un solo lado?</li>
+            <li>¿En qué otras situaciones de la vida diaria hemos visto algo parecido a "estar en equilibrio"?</li>
+          </ul>
+        </td></tr>
+        <tr><th>Rol del docente</th><td>Modera el diálogo, registra las respuestas en la pizarra y orienta hacia la noción de igualdad sin todavía formalizarla.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-C"><span class="icono">③</span> CONCEPTUALIZACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 17 minutos · Técnica: exposición dialogada y construcción de conceptos</div>
+      <table class="erca-table">
+        <tr><th>Contenido científico</th><td>Se formaliza el <strong>concepto de igualdad</strong> como la relación entre dos expresiones que representan el mismo valor, simbolizada con el signo "=". Se introduce la noción de <strong>pensamiento algebraico inicial</strong>: la capacidad de generalizar relaciones numéricas más allá de un caso particular.</td></tr>
+        <tr><th>Desarrollo</th><td>El docente explica con ejemplos numéricos (3 + 2 = 5; 4 + 1 = 5) que ambos miembros deben representar el mismo valor. Se transita hacia ejemplos donde un valor es desconocido, conectando con la experiencia de la balanza: lo que se pierde de un lado debe compensarse del otro.</td></tr>
+        <tr><th>DCD relacionado</th><td>Comprender el concepto de igualdad como base del pensamiento algebraico para la futura formulación de ecuaciones.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-A"><span class="icono">④</span> APLICACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: trabajo individual y socialización</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Los estudiantes resuelven una ficha con 5 igualdades numéricas para verificar si son verdaderas o falsas, y proponen 2 ejemplos propios de situaciones de equilibrio o igualdad de la vida cotidiana (reparto de golosinas, mesadas, etc.).</td></tr>
+        <tr><th>Indicador de evaluación</th><td>Identifica el concepto de igualdad y lo distingue de la simple operación aritmética.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============== SEMANA 2 ============== -->
+  <div class="unidad-header">Semana 2 (18–22 de mayo de 2026) · Tema: Variables y Expresiones Algebraicas</div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-E"><span class="icono">①</span> EXPERIENCIA</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: situación problémica concreta</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Se presenta una "caja misteriosa" cerrada que contiene una cantidad desconocida de fichas, junto con 3 fichas visibles fuera de la caja. Se pregunta: "Si en total hay 8 fichas, ¿cuántas hay dentro de la caja?"</td></tr>
+        <tr><th>Recursos</th><td>Caja física u objeto simbólico, fichas o tapas, pizarra.</td></tr>
+        <tr><th>Rol del estudiante</th><td>Intenta estimar la cantidad desconocida y justifica su razonamiento ante el grupo.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-R"><span class="icono">②</span> REFLEXIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 8 minutos · Técnica: diálogo socializado</div>
+      <table class="erca-table">
+        <tr><th>Preguntas guía</th><td>
+          <ul class="content-list">
+            <li>¿Cómo supieron (o calcularon) cuántas fichas había dentro de la caja?</li>
+            <li>¿Qué representa la "caja" en este problema?</li>
+            <li>¿De qué otra forma podríamos representar algo "desconocido" sin usar una caja?</li>
+          </ul>
+        </td></tr>
+        <tr><th>Rol del docente</th><td>Conduce a los estudiantes hacia la idea de que una letra puede sustituir a la caja como representación de lo desconocido.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-C"><span class="icono">③</span> CONCEPTUALIZACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 17 minutos · Técnica: exposición dialogada</div>
+      <table class="erca-table">
+        <tr><th>Contenido científico</th><td>Se define <strong>variable</strong> como un símbolo (generalmente una letra) que representa un valor desconocido o que puede variar. Se introduce la <strong>expresión algebraica</strong> como la combinación de números, variables y operaciones (ej. x + 3, 2x, x − 5).</td></tr>
+        <tr><th>Desarrollo</th><td>Se retoma el problema de la caja: "x + 3 = 8" y se explica cómo construir expresiones algebraicas simples a partir de enunciados verbales ("un número aumentado en 4", "el doble de un número").</td></tr>
+        <tr><th>DCD relacionado</th><td>Utilizar variables para construir expresiones algebraicas simples a partir de situaciones y enunciados cotidianos.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-A"><span class="icono">④</span> APLICACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: trabajo en pares</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>En parejas, los estudiantes traducen 4 enunciados verbales a expresiones algebraicas (ej. "un número disminuido en 5", "el triple de un número más 2") y construyen un enunciado propio para que su compañero lo traduzca.</td></tr>
+        <tr><th>Indicador de evaluación</th><td>Construye expresiones algebraicas simples a partir de enunciados cotidianos.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============== SEMANA 3 ============== -->
+  <div class="unidad-header">Semana 3 (25–29 de mayo de 2026) · Tema: Ecuaciones de Primer Grado</div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-E"><span class="icono">①</span> EXPERIENCIA</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: juego de roles / situación real</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Se narra una situación: "Pedro tenía cierta cantidad de dinero, gastó $5 en un refrigerio y le quedaron $12. ¿Cuánto dinero tenía Pedro al inicio?" Los estudiantes intentan resolverlo mentalmente o con dibujos.</td></tr>
+        <tr><th>Recursos</th><td>Tarjeta con el problema, pizarra, billetes didácticos (opcional).</td></tr>
+        <tr><th>Rol del estudiante</th><td>Propone una respuesta y describe el proceso mental que utilizó para llegar a ella.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-R"><span class="icono">②</span> REFLEXIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 8 minutos · Técnica: análisis comparativo de procedimientos</div>
+      <table class="erca-table">
+        <tr><th>Preguntas guía</th><td>
+          <ul class="content-list">
+            <li>¿Qué operación realizaron para encontrar el dinero inicial de Pedro?</li>
+            <li>¿Cómo podríamos escribir esta situación usando una letra para lo desconocido?</li>
+            <li>¿Qué partes identifican en esa "escritura" (la incógnita, los números, el signo igual)?</li>
+          </ul>
+        </td></tr>
+        <tr><th>Rol del docente</th><td>Sistematiza las respuestas y empieza a nombrar formalmente los elementos identificados por los estudiantes.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-C"><span class="icono">③</span> CONCEPTUALIZACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 17 minutos · Técnica: exposición dialogada y formalización</div>
+      <table class="erca-table">
+        <tr><th>Contenido científico</th><td>Se define la <strong>ecuación de primer grado con una incógnita</strong> como una igualdad entre dos expresiones que contiene una variable con exponente 1. Se identifican sus partes: incógnita, coeficiente, término independiente, miembro izquierdo y miembro derecho.</td></tr>
+        <tr><th>Desarrollo</th><td>El problema de Pedro se traduce a la ecuación x − 5 = 12, señalando cada elemento. Se presentan ejemplos adicionales del tipo x + a = b para consolidar el reconocimiento de la estructura.</td></tr>
+        <tr><th>DCD relacionado</th><td>Reconocer las partes de una ecuación de primer grado y representar situaciones reales mediante ecuaciones con una incógnita.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-A"><span class="icono">④</span> APLICACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: trabajo individual con corrección guiada</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Los estudiantes resuelven una ficha donde deben subrayar y nombrar (incógnita, coeficiente, miembro izquierdo, miembro derecho) las partes de 4 ecuaciones dadas, y plantean la ecuación correspondiente a un problema breve propuesto por el docente.</td></tr>
+        <tr><th>Indicador de evaluación</th><td>Reconoce las partes de una ecuación de primer grado (incógnita, coeficientes, términos independientes).</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============== SEMANA 4 ============== -->
+  <div class="unidad-header">Semana 4 (1–5 de junio de 2026) · Tema: Resolución Básica de Ecuaciones</div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-E"><span class="icono">①</span> EXPERIENCIA</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: manipulación con balanza didáctica</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Retomando la balanza de la Semana 1, se coloca una bolsa cerrada (incógnita) más 2 fichas en un platillo, y 7 fichas en el otro, en equilibrio. Se pregunta: "¿Cómo podemos descubrir cuántas fichas hay dentro de la bolsa sin abrirla, manteniendo el equilibrio?"</td></tr>
+        <tr><th>Recursos</th><td>Balanza didáctica, bolsa opaca con fichas dentro, fichas sueltas.</td></tr>
+        <tr><th>Rol del estudiante</th><td>Experimenta quitando la misma cantidad de fichas de ambos lados hasta dejar la bolsa sola, descubriendo intuitivamente el principio de equivalencia.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-R"><span class="icono">②</span> REFLEXIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 8 minutos · Técnica: socialización de estrategias</div>
+      <table class="erca-table">
+        <tr><th>Preguntas guía</th><td>
+          <ul class="content-list">
+            <li>¿Qué hicieron para mantener el equilibrio de la balanza mientras descubrían el contenido de la bolsa?</li>
+            <li>¿Por qué fue necesario quitar la misma cantidad de fichas en ambos lados?</li>
+            <li>¿Cómo podríamos aplicar esta misma idea al resolver una ecuación escrita?</li>
+          </ul>
+        </td></tr>
+        <tr><th>Rol del docente</th><td>Orienta a los estudiantes a conectar la manipulación física con la operación matemática equivalente (restar el mismo valor en ambos miembros).</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-C"><span class="icono">③</span> CONCEPTUALIZACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 17 minutos · Técnica: modelado docente y construcción guiada</div>
+      <table class="erca-table">
+        <tr><th>Contenido científico</th><td>Se formaliza el <strong>principio de equivalencia</strong>: si se realiza la misma operación en ambos miembros de una ecuación, la igualdad se mantiene. Se introducen las <strong>operaciones inversas</strong> (suma↔resta, multiplicación↔división) como herramienta para despejar la incógnita.</td></tr>
+        <tr><th>Desarrollo</th><td>Se resuelven paso a paso en la pizarra ecuaciones del tipo x + a = b (aplicando resta en ambos miembros) y ax = b (aplicando división en ambos miembros), verificando cada solución por sustitución.</td></tr>
+        <tr><th>DCD relacionado</th><td>Aplicar el principio de equivalencia y operaciones inversas para resolver ecuaciones de primer grado con una incógnita.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-A"><span class="icono">④</span> APLICACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: práctica guiada en pares</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>En parejas, los estudiantes resuelven 6 ecuaciones progresivas (tipo x + a = b y ax = b), verificando cada solución mediante sustitución en la ecuación original.</td></tr>
+        <tr><th>Indicador de evaluación</th><td>Aplica el principio de equivalencia y operaciones inversas para resolver ecuaciones del tipo x + a = b y ax = b.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============== SEMANA 5 ============== -->
+  <div class="unidad-header">Semana 5 (8–12 de junio de 2026) · Tema: Aplicación de Ecuaciones en la Vida Diaria</div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-E"><span class="icono">①</span> EXPERIENCIA</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: situación contextualizada real</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Se presenta una situación cercana al estudiante: "En una tienda, 3 cuadernos iguales más un lápiz de $1 cuestan $13. ¿Cuánto cuesta cada cuaderno?" Los estudiantes proponen una primera respuesta de forma intuitiva.</td></tr>
+        <tr><th>Recursos</th><td>Tarjeta de problema, objetos reales o imágenes (cuadernos, lápiz), pizarra.</td></tr>
+        <tr><th>Rol del estudiante</th><td>Explora el problema individualmente, ensayando posibles soluciones por tanteo.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-R"><span class="icono">②</span> REFLEXIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 8 minutos · Técnica: contraste de estrategias</div>
+      <table class="erca-table">
+        <tr><th>Preguntas guía</th><td>
+          <ul class="content-list">
+            <li>¿Qué estrategia usaron para encontrar el precio del cuaderno: tanteo o ecuación?</li>
+            <li>¿Qué ventajas tiene representar el problema con una ecuación en lugar de probar números al azar?</li>
+            <li>¿Qué pasos seguirían para plantear la ecuación de este problema?</li>
+          </ul>
+        </td></tr>
+        <tr><th>Rol del docente</th><td>Valora ambas estrategias y guía hacia la eficiencia y generalización que ofrece el método algebraico frente al tanteo.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-C"><span class="icono">③</span> CONCEPTUALIZACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 17 minutos · Técnica: modelado del proceso de modelación matemática</div>
+      <table class="erca-table">
+        <tr><th>Contenido científico</th><td>Se sistematiza el proceso de <strong>modelación de situaciones reales mediante ecuaciones</strong>: (1) identificar la incógnita, (2) traducir el enunciado a lenguaje algebraico, (3) resolver aplicando el principio de equivalencia, (4) verificar e interpretar el resultado en el contexto original.</td></tr>
+        <tr><th>Desarrollo</th><td>Se resuelve el problema de la tienda en la pizarra siguiendo los cuatro pasos: 3x + 1 = 13 → 3x = 12 → x = 4. Se enfatiza la interpretación: "cada cuaderno cuesta $4", no solo el valor numérico aislado.</td></tr>
+        <tr><th>DCD relacionado</th><td>Modelar y resolver situaciones de la vida cotidiana mediante ecuaciones de primer grado, interpretando el resultado en su contexto.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="erca-fase">
+    <div class="erca-fase-header fase-A"><span class="icono">④</span> APLICACIÓN</div>
+    <div class="erca-body">
+      <div class="erca-meta">Tiempo estimado: 10 minutos · Técnica: resolución de problemas y plenaria</div>
+      <table class="erca-table">
+        <tr><th>Actividad</th><td>Los estudiantes resuelven, en grupos pequeños, 2 problemas contextualizados de la vida cotidiana (reparto de dinero, edades, compras) siguiendo los 4 pasos del proceso de modelación, y socializan un caso ante el curso.</td></tr>
+        <tr><th>Indicador de evaluación</th><td>Modela situaciones cotidianas mediante ecuaciones y las resuelve correctamente, interpretando el resultado.</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- EVALUACIÓN GENERAL -->
+  <div class="unidad-header">Evaluación General de la Unidad 1 (Ciclo ERCA)</div>
+  <table class="eval-table">
+    <thead>
+      <tr><th>Técnica</th><th>Instrumento</th><th>Fase ERCA asociada</th><th>Criterio</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Observación directa</td><td>Lista de cotejo</td><td>Experiencia / Reflexión</td><td>Participación activa, expresión de ideas previas y razonamiento espontáneo.</td></tr>
+      <tr><td>Diálogo socializado</td><td>Registro anecdótico</td><td>Reflexión</td><td>Calidad de las respuestas a las preguntas guía y conexión con la experiencia vivida.</td></tr>
+      <tr><td>Prueba escrita</td><td>Cuestionario de ecuaciones</td><td>Conceptualización</td><td>Comprensión y manejo correcto de definiciones, elementos y procedimientos.</td></tr>
+      <tr><td>Resolución de problemas</td><td>Rúbrica analítica</td><td>Aplicación</td><td>Transferencia del conocimiento a situaciones nuevas, procedimiento y verificación correctos.</td></tr>
+      <tr><td>Portafolio</td><td>Registro de fichas de las 4 fases</td><td>Todas las fases</td><td>Organización, progresión y evidencia del recorrido por el ciclo ERCA en cada semana.</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ADAPTACIÓN CURRICULAR -->
+  <table class="obj-table">
+    <tr><th>Adaptación Curricular (NEE)</th></tr>
+    <tr><td>En la fase de Experiencia, se priorizan materiales manipulativos y visuales adicionales. En la fase de Reflexión, se simplifican las preguntas guía y se permite respuesta oral o gráfica. En Conceptualización, se entregan organizadores gráficos con los pasos resumidos. En Aplicación, se reduce el número de ítems o se ofrece acompañamiento personalizado, manteniendo el mismo indicador de evaluación adaptado (prefijo IA).</td></tr>
+  </table>
+
+  <!-- BIBLIOGRAFÍA -->
+  <div class="unidad-header">Bibliografía (APA 7.ª edición)</div>
+  <div style="margin-top:10px; padding: 10px;">
+    <p class="biblio">Kolb, D. A. (1984). <em>Experiential learning: Experience as the source of learning and development.</em> Prentice-Hall.</p>
+    <p class="biblio">Ministerio de Educación del Ecuador. (2016). <em>Currículo de los niveles de educación obligatoria: Matemática.</em> MinEduc. https://educacion.gob.ec/curriculo/</p>
+    <p class="biblio">Ministerio de Educación del Ecuador. (2021). <em>Instructivo para planificaciones curriculares del Sistema Nacional de Educación.</em> MinEduc.</p>
+    <p class="biblio">Kieran, C. (2004). Algebraic thinking in the early grades: What is it? <em>The Mathematics Educator, 8</em>(1), 139–151.</p>
+    <p class="biblio">Mason, J., Graham, A., & Johnston-Wilder, S. (2005). <em>Developing thinking in algebra.</em> SAGE Publications.</p>
+    <p class="biblio">Pólya, G. (1945). <em>How to solve it: A new aspect of mathematical method.</em> Princeton University Press.</p>
+  </div>
+
+  <!-- FIRMAS -->
+  <div class="firmas">
+    <div class="firma-box">___________________________<br/><strong>Docente / Practicante</strong><br/><em>Firma y fecha</em></div>
+    <div class="firma-box">___________________________<br/><strong>Tutor Académico</strong><br/><em>Firma y fecha</em></div>
+    <div class="firma-box">___________________________<br/><strong>Autoridad Institucional</strong><br/><em>Firma y fecha</em></div>
+  </div>
+
+  <div class="slogan">"CAMINEMOS JUNTOS A LA EXCELENCIA"</div>
+
+</div>
+</body>
+</html>
